@@ -2,7 +2,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 import pandas as pd
-stop_words = set(stopwords.words('english'))
+stop_words = set(stopwords.words("english"))
 
 
 def get_first_title(title):
